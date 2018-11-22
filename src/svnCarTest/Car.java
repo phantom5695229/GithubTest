@@ -1,5 +1,5 @@
 package svnCarTest;
-//Ìá½»gitĞŞ¸Ä²âÊÔ1
+//commit Test 1
 public class Car {
 	private String brand;
 	private String type;
