@@ -1,5 +1,5 @@
 package svnCarTest;
-
+//Ã·ΩªGIT≤‚ ‘
 public class Car {
 	private String brand;
 	private String type;
