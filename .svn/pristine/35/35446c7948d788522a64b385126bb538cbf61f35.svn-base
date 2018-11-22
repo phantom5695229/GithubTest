@@ -1,0 +1,16 @@
+package svnCarTest;
+
+public class Test {
+	public static void main(String[] args) {
+		ICarDao icd = new CarDaoImpl(10);
+		Car c1 = new Car("惘鎮","SUV","賽B11111");
+		Car c2 = new Car("惘鎮","Sedan","賽B22222");
+		Car c3 = new Car("兜舜","SUV","賽B33333");
+		Car c4 = new Car("兜舜","Sedan","賽B44444");
+		Car c5 = new Car("豎悸","SUV","賽B55555");
+		Car c6 = new Car("豎悸","Sedan","賽B66666");
+		Car c7 = new Car("掉喊","SUV","賽B77777");
+		Car c8 = new Car("掉喊","Sedan","賽B88888");
+		
+	}
+}

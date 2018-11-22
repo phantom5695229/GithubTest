@@ -1,0 +1,51 @@
+package svnCarTest;
+
+public class CarDaoImpl implements ICarDao{
+	private Car[] cars;
+	private int index;
+	
+
+	public CarDaoImpl() {
+		cars = new Car[10];
+	}
+	public CarDaoImpl(int size) {
+		cars = new Car[size];
+	}
+
+	@Override
+	public boolean save(Car car) {
+		// TODO deju
+		return false;
+	}
+
+	@Override
+	public boolean delete(String carId) {
+		// TODO deju
+		return false;
+	}
+
+	@Override
+	public Car quryById(String carId) {
+		// TODO mao
+		return null;
+	}
+
+	@Override
+	public Car[] quryByType(String type) {
+		// TODO sha
+		return null;
+	}
+
+	@Override
+	public Car[] quryByBrand(String brand) {
+		// TODO sha
+		return null;
+	}
+
+	@Override
+	public Car[] quryAll() {
+		// TODO mao
+		return null;
+	}
+
+}

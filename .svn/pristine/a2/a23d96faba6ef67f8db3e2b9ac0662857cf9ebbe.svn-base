@@ -1,0 +1,5 @@
+package svnCarTest;
+
+public interface ICarDao {
+
+}
