@@ -1,5 +1,5 @@
 package svnCarTest;
-//提交git修改测试
+//提交git修改测试1
 public class Car {
 	private String brand;
 	private String type;
